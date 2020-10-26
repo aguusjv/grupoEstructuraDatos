@@ -1,0 +1,7 @@
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\bin\Debug\proyecto_prueba.exe.config
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\bin\Debug\proyecto_prueba.exe
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\bin\Debug\proyecto_prueba.pdb
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\obj\Debug\proyecto_prueba.csprojAssemblyReference.cache
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\obj\Debug\proyecto_prueba.csproj.CoreCompileInputs.cache
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\obj\Debug\proyecto_prueba.exe
+C:\Users\Agus\source\repos\grupoEstructuraDatos\proyecto_prueba\proyecto_prueba\obj\Debug\proyecto_prueba.pdb
