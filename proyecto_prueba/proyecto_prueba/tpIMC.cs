@@ -58,21 +58,21 @@ namespace IMC
                     else if (numero >= 18.5 && numero <= 24.9)
                     {
                         tipoCategoria = "NORMAL";
-                        Console.WriteLine("Para la informacion que ingreso:");
+                        Console.WriteLine("Para la información que ingresó:");
                         Console.WriteLine("Estatura:{0}cm", altura);
                         Console.WriteLine("Peso:{0}kg", peso);
-                        Console.WriteLine("Su IMC es {0}, lo que indica que su peso esta en la categoria de NORMAL.", calculoIMC);
+                        Console.WriteLine("Su IMC es {0}, lo que indica que su peso esta en la categoría de NORMAL.", calculoIMC);
                         Console.WriteLine("Muy buena noticia {0}!! Tienes un PESO IDEAL.", nombre);
                         Console.WriteLine("Mantener un peso saludable puede reducir el riesgo de enfermedades crónicas asociadas al sobrepeso y la obesidad.");
                     }
                     else if (numero >= 25 && numero <= 29.9)
                     {
                         tipoCategoria = "SOBREPESO";
-                        Console.WriteLine("Para la informacion que ingreso:");
+                        Console.WriteLine("Para la información que ingresó:");
                         Console.WriteLine("Estatura:{0}cm", altura);
                         Console.WriteLine("Peso:{0}kg", peso);
-                        Console.WriteLine("Su IMC es {0}, lo que indica que su peso esta en la categoria de SOBREPESO.", calculoIMC);
-                        Console.WriteLine("Ten cuidado {0}! Padeces de SOBREPESO, tu salud es moderada.", nombre);
+                        Console.WriteLine("Su IMC es {0}, lo que indica que su peso esta en la categoría de SOBREPESO.", calculoIMC);
+                        Console.WriteLine("Tené cuidado {0}! Padeces de SOBREPESO, tu salud es moderada.", nombre);
                         Console.WriteLine("Las personas que tienen sobrepeso o son obesas tienen un mayor riesgo de afecciones crónicas,\ntales como hipertensión arterial, diabetes y colesterol alto.");
                     }
                     else if (numero >= 30 && numero <= 37)
@@ -142,8 +142,32 @@ namespace IMC
             {
 
             }
+            Console.WriteLine("{0}, si desea recibir recomendaciones de dietas presione 1, para salir 0 !", nombre);
+            int pregunta = Convert.ToInt32(Console.ReadLine());
 
-            
+            if (pregunta == 1)
+            {
+                Console.WriteLine("--- Bienvenido a Dietas Saludables ---");
+                Console.WriteLine("Elija en que grado de IMC está.\n1-SOBREPESO\n2-OBESIDAD");
+                int grado = Convert.ToInt32(Console.ReadLine());
+                if (grado == 1)
+                {
+                    
+                }
+                else if (grado == 2)
+                {
+
+                }
+            }
+            if (pregunta == 0)
+            {
+                Console.WriteLine("--- Muchas Gracias ---");            
+            }
+
+
+
+
+
 
         }
     }
